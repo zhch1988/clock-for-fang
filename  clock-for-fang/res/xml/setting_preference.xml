@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/pref_category">
+        <RingtonePreference android:title="@string/pref_ringtone" android:key="ringtone" android:ringtoneType="alarm" android:showSilent="false" android:defaultValue="content://settings/system/alarm_alert" />
+        <ListPreference android:title="@string/pref_interval" android:key="interval" android:entryValues="@array/interval_value" android:entries="@array/interval_key" android:negativeButtonText="@string/cancel" android:positiveButtonText="@string/confirm" android:defaultValue="5"/>
+    </PreferenceCategory>
+    
+</PreferenceScreen>
+
